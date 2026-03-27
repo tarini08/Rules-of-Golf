@@ -5,26 +5,13 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system built us
 ## Overview
 The system processes document-based knowledge (Rules of Golf) and allows users to query it in natural language. It retrieves relevant context and generates grounded responses using an LLM.
 
-## Features
-- Document-based Q&A using RAG
+## Advanced Features
+
+- Supabase vector database (pgvector)
+- OpenAI embeddings + GPT generation
 - n8n workflow orchestration
-- API-based retrieval system
-- Context-grounded answers
-- Scalable pipeline (can be extended to policy documents, research reports, etc.)
-
-## Use Case Extension
-This system can be adapted for:
-- Policy document analysis
-- Research report summarization
-- Knowledge retrieval systems like PDRC
-
-## Tech Stack
-- n8n (workflow automation)
-- FastAPI (backend)
-- FAISS (vector database)
-- Open-source LLM
-
-## Future Improvements
+- Structured output generation (policy briefs, summaries)
+- Scalable architecture for research & policy documents
 - Policy brief generation
 - Executive summaries
 - Multi-language support (English/Hindi)
